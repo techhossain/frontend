@@ -7,11 +7,13 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <!-- Header -->
+  <!-- Navigation Menu -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-2 fixed-top">
     <div class="container-xl">
       <!-- Logo -->
@@ -56,25 +58,25 @@
         </ul>
         <!-- Right navigation -->
         <div class="d-flex align-items-lg-center mt-3 mt-lg-0">
-          <a href="tel:+8801799664170" class="btn btn-primary rounded-0 px-4">01799664170</a>
+          <a href="tel:+8801799664170" class="btn btn-primary rounded-0 px-4"><i class="bi bi-telephone"></i> 01799664170</a>
         </div>
       </div>
     </div>
   </nav>
-
+  <!-- Header & Feature -->
   <header id="header" class="pt-5">
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
       <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-7 text-center text-lg-start">
-          <h2 class="fw-bold lh-1 mb-3">Your Technology Partner For Innovative And Effective Digital Solutions
+          <h2 class="fw-bold mb-3 h1">
+            Your Technology Partner For Innovative And Effective Digital Solutions
           </h2>
-          <p class="col-lg-10 fs-4">
-            I’m Maher Hossain, working as a professional Web Developer & SEO optimizer for almost 5+ years. I’ve
-            experienced in all expect of web development using JavaScript (MERN) and PHP.
+          <p class="fs-4">
+            We're experienced IT professionals & committed to provide the best solutions for our clients to meet their business goals.
           </p>
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
-          <form class="p-2 p-md-3 border rounded-0 bg-light">
+          <form class="p-3 p-md-4 border rounded-0 bg-light">
 
             <div class="form-floating mb-3">
               <input type="text" class="form-control" id="name" placeholder="Full Name">
@@ -105,13 +107,13 @@
       </div>
     </div>
     <div class="container">
-      <div class="row align-items-md-stretch mb-5">
+      <div class="row align-items-md-stretch text-center mb-5">
 
         <div class="col-md-3">
           <div class="h-100 p-5 text-bg-dark rounded-0">
             <h2>Experience</h2>
             <p>7+ Years of Experiences</p>
-            <button class="btn btn-outline-light" type="button">Example button</button>
+            <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
           </div>
         </div>
 
@@ -119,7 +121,7 @@
           <div class="h-100 p-5 bg-light border rounded-0">
             <h2>Projects</h2>
             <p>450+ Projects Completed</p>
-            <button class="btn btn-outline-secondary" type="button">Example button</button>
+            <!-- <button class="btn btn-outline-secondary" type="button">Example button</button> -->
           </div>
         </div>
 
@@ -127,7 +129,7 @@
           <div class="h-100 p-5 text-bg-dark rounded-0">
             <h2>Served</h2>
             <p>13+ Country Served</p>
-            <button class="btn btn-outline-light" type="button">Example button</button>
+            <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
           </div>
         </div>
 
@@ -135,13 +137,387 @@
           <div class="h-100 p-5 bg-light border rounded-0">
             <h2>Clients</h2>
             <p>130+ Happy Clients</p>
-            <button class="btn btn-outline-secondary" type="button">Example button</button>
+            <!-- <button class="btn btn-outline-secondary" type="button">View Details</button> -->
           </div>
         </div>
       </div>
     </div>
   </header>
 
+  <main>
+    <!-- Services -->
+    <section id="services" class="py-5 bg-light">
+      <div class="container px-4 py-5" id="custom-cards">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="pb-2 border-bottom fw-bold">We are Expert in</h2>
+            <p class="fs-4">We’re an offshore Digital Services Provider known for providing high-quality services at affordable rates. Our service delivery teams consistently meet the demands of various international SMB clients who are consistently giving positive feedback. We provide a variety of services to meet client needs. We believe in efficiency and plan our approach accordingly.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+          
+          <div class="col">
+            <div class="card card-cover h-100 rounded-0 border-0 shadow-sm">
+              <div class="d-flex flex-column h-100 p-5 text-dark text-shadow-1 text-center">
+                <h2 class="mt-4 mb-4">Web Design & Development</h2>
+                <p class="fs-5">Our portfolio speaks about our expertise in developing web applications for lead generation to other complex applications</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card card-cover h-100 rounded-0 border-0 shadow-sm">
+              <div class="d-flex flex-column h-100 p-5 text-dark text-shadow-1 text-center">
+                <h2 class="mt-4 mb-4">Ecommerce Development</h2>
+                <p class="fs-5">We develop a powerful, easy-to-use eCommerce store that can convert your visitors into returning customers</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card card-cover h-100 rounded-0 border-0 shadow-sm">
+              <div class="d-flex flex-column h-100 p-5 text-dark text-shadow-1 text-center">
+                <h2 class="mt-4 mb-4">Search Engine Optimization</h2>
+                <p class="fs-5">We've expertise in SEO, SEM and SMM team for marketing your company product or your services information whole of the world</p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="col">
+            <div class="card card-cover h-100 rounded-0 border-0 shadow-sm">
+              <div class="d-flex flex-column h-100 p-5 text-dark text-shadow-1 text-center">
+                <h2 class="mt-4 mb-4">WordPress Development</h2>
+                <p class="fs-5">We can develop a fully functional WordPress based website, It will be dynamic, easy-to-manage & custom-made theme for you only</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col">
+            <div class="card card-cover h-100 rounded-0 border-0 shadow-sm">
+              <div class="d-flex flex-column h-100 p-5 text-dark text-shadow-1 text-center">
+                <h2 class="mt-4 mb-4">Website Maintenance (SLA)</h2>
+                <p class="fs-5">We deliver high-quality web solutions and great support! We're not satisfied with the work unless you're completely satisfied with our services</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col">
+            <div class="card card-cover h-100 rounded-0 border-0 shadow-sm">
+              <div class="d-flex flex-column h-100 p-5 text-dark text-shadow-1 text-center">
+                <h2 class="mt-4 mb-4">PPC Ads Campaign &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+                <p class="fs-5">We can deliver a highly effective and measurable Google or Facebook Ads campaign for your business</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Portfolios -->
+    <section id="portfolios" class="py-5">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-12">
+            <h2 class="pb-2 border-bottom fw-bold">We are Proud of</h2>
+            <p class="fs-4">We proactively consult, design & develop robust web, mobile & customer-facing software solutions, that fuel digital success! Previous associations that helped to gather experience.</p>
+          </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-9">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn" data-filter="all">All</button>
+                  <button type="button" class="btn" data-filter=".category-a">Category A</button>
+                  <button type="button" class="btn" data-filter=".category-b">Category B</button>
+                  <button type="button" class="btn" data-filter=".category-c">Category C</button>
+                  <button type="button" class="btn" data-filter=".category-c">Category C</button>
+                  <button type="button" class="btn" data-filter=".category-c">Category C</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="btn-group me-2 d-flex justify-content-end" role="group">
+                  <button type="button" class="btn " data-sort="order:asc"> <i class="bi bi-sort-up"></i> ASC </button>
+                  <button type="button" class="btn " data-sort="order:descending"> <i class="bi bi-sort-down"></i> DESC </button>
+                  <button type="button" class="btn " data-sort="random"> <i class="bi bi-shuffle"></i> </button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="portfolios my-2">
+          <div class="row">
+
+            <div class="col-md-3 mix category-a my-2" data-order="4">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                      <div class="overlay">
+                          <h2>Effect 11</h2>
+                          <p><a href="#">LINK HERE</a></p>
+                      </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mix category-c my-2" data-order="2">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                      <div class="overlay">
+                          <h2>Effect 12</h2>
+                          <p><a href="#">LINK HERE</a></p>
+                      </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mix category-b category-d my-2" data-order="3">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                      <div class="overlay">
+                          <h2>Effect 13</h2>
+                          <p><a href="#">LINK HERE</a></p>
+                      </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mix category-a category-c my-2" data-order="1">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                    <div class="overlay">
+                        <h2>Responsive Web Design for Mani Mia</h2>
+                        <p>
+                          <a target="_blank" rel="nofollow" class="clientsUrl text-decoration-none d-block mb-2" href="https://manikmia.com">https://manikmia.com</a>
+                          <a href="#" class="btn btn-info btn-sm">Case Study</a>
+                          <p>
+                            <span class="badge text-bg-dark">Ecommerce</span>
+                            <span class="badge text-bg-dark">WordPress</span>
+                            <span class="badge text-bg-dark">SEO</span>
+                          </p>
+                        </p>
+                    </div>
+              </div>
+            </div>
+
+            <!-- 1st Row end-->
+
+            <div class="col-md-3 mix category-a my-2" data-order="4">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                      <div class="overlay">
+                          <h2>Effect 11</h2>
+                          <p><a href="#">LINK HERE</a></p>
+                      </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mix category-c my-2" data-order="2">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                      <div class="overlay">
+                          <h2>Effect 12</h2>
+                          <p><a href="#">LINK HERE</a></p>
+                      </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mix category-b category-d my-2" data-order="3">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                      <div class="overlay">
+                          <h2>Effect 13</h2>
+                          <p><a href="#">LINK HERE</a></p>
+                      </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mix category-a category-c my-2" data-order="1">
+              <div class="hovereffect">
+                  <img class="img-fluid" src="https://source.unsplash.com/random/400x300" alt="">
+                    <div class="overlay">
+                        <h2>Responsive Web Design for Mani Mia</h2>
+                        <p>
+                          <a target="_blank" rel="nofollow" class="clientsUrl text-decoration-none d-block mb-2" href="https://manikmia.com">https://manikmia.com</a>
+                          <a href="#" class="btn btn-info btn-sm">Case Study</a>
+                          <p>
+                            <span class="badge text-bg-dark">Ecommerce</span>
+                            <span class="badge text-bg-dark">WordPress</span>
+                            <span class="badge text-bg-dark">SEO</span>
+                          </p>
+                        </p>
+                    </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="pb-2 border-bottom fw-bold">What clients says</h2>
+            <p class="fs-4">See what our clients give us back. We want to share our happiness with you.</p>
+          </div>
+        </div>
+
+        <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card">
+              <img src="assets/images/clients-logo/Untitled-2.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Maher is a very skilled web developer who aims to satisfy his client with his dedication. He gained our trust and proved his effectiveness. The work I received from him was outstanding and that shows his
+                  commitment to quality. I Would highly recommend Maher and will be doing more projects with him.</p>
+              </div>
+              <figcaption class="p-2 blockquote-footer mb-0 text-muted">
+                STEVE BAKKERS <cite title="Source Title">CEO, New Age Solutions</cite>
+              </figcaption>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3323%; top: 0px;">
+            <div class="card p-3">
+              <figure class="p-3 mb-0">
+                <blockquote class="card-text">
+                  <p>Maher has provided highly impressive design work with top quality, thoughtful ideas and outstanding attention to detail. Communication with him was excellent and showed the willingness to persevere until the desired design was achieved. 
+                  Obviously passionate about the work. Wouldn’t hesitate to recommend a true professional.</p>
+                </blockquote>
+                <figcaption class="py-2 blockquote-footer mb-0 text-muted">
+                  MARK ANATOLYEVICH <cite title="Source Title">Founder, International Business Consultants</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 66.6647%; top: 0px;">
+            <div class="card">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+      
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3323%; top: 171px;">
+            <div class="card text-bg-primary text-center p-3">
+              <figure class="mb-0">
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-white">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3323%; top: 310px;">
+            <div class="card">
+              <img src="assets/images/clients-logo/Untitled-3.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Maher Hossain runs a very good Digital agency. I have been using their services for a long time and they always provide me with the best quality at an affordable price. The team has made some great changes to my website, which has increased its rank on Google as well as helped it to generate more leads.</p>
+                
+              <figcaption class="p-2 blockquote-footer mb-0 text-muted">
+                CAATHERINE MEREDITH <cite title="Source Title">Founder, The Real Health HQ</cite>
+              </figcaption>
+                <p class="card-text"><small class="text-muted"></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 362px;">
+            <div class="card">
+              <svg class="bd-placeholder-img card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Card image</text></svg>
+      
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 66.6647%; top: 378px;">
+            <div class="card p-3 text-end">
+              <figure class="mb-0">
+                <blockquote class="blockquote">
+                  <p>A well-known quote, contained in a blockquote element.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-muted">
+                  Someone famous in <cite title="Source Title">Source Title</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 33.3323%; top: 488px;">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Intro to MH -->
+    <section id="about" class="py-5">
+      <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold">Maher Hossain</h1>
+            <p class="fs-5">Working as a professional Web Developer & SEO optimizer for almost 6+ years. I’ve experienced in all expect of web development using JavaScript (MERN) and PHP. I’m well trained in Java Technology, I am an Oracle Certified Professional Java SE 6 programmer, I have skills in PHP, JavaScript, React, Node.js, Laravel, WordPress Theme & Plugin Development besides that I am proficient in front-end technology like HTML, CSS, JavaScript, jQuery, Bootstrap, Tailwind CSS, SASS. At MH Digital we consider the business of our clients & make strategies accordingly. While developing a Web or mobile application we keep in mind the branding and optimize UI and UX, planning content and functionality according to search engines recommendation and It helps to rank the website more easily. </p>
+
+            <p class="fs-5">We develop a web application that features mobile-friendliness, SEO optimization, maximum browser compatibility, and page loading time.  We're easy to work with and enjoy being a lifelong learner – what we don’t know, we dive in it until We’ve mastered on it!</p>
+
+          </div>
+          <div class="col-lg-5">
+              <div>
+                <img class="" src="https://maherhossain.com/currept/wp-content/uploads/2022/03/Maher-Hossain.jpg" alt="Maher Hossain" >
+              </div>
+            <ul class="list-group list-group-horizontal-sm">
+              <li  class="list-group-item"><a href="#"><i class="bi bi-messenger"></i></a></li>
+              <li  class="list-group-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+              <li  class="list-group-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <li  class="list-group-item"><a href="#"><i class="bi bi-stack-overflow"></i></a></li>
+              <li  class="list-group-item"><a href="#"><i class="bi bi-github"></i></a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h2 class="pb-2 border-bottom fw-bold">We are Proud to Work with</h2>
+            <p class="fs-5">We pride ourselves on delivering high quality products that truly make a real difference. We’ve worked on so many exciting new projects for companies across the world, each one as unique and different as the next. For each project, we always focus on our client’s individual needs and strive to achieve something we’re proud to put our name too.</p>
+          </div>
+          <div class="col-md-9">
+            <div class="logo-box d-flex align-items-center flex-wrap">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-1.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-2.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-3.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-4.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-5.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-6.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-7.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-8.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-9.jpg" alt="client logo">
+              <img class="img-fluid shadow-lg m-2" style="width: 120px" src="assets/images/clients-logo/Untitled-10.jpg" alt="client logo">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+  </main>
 
 
 
@@ -153,6 +529,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+<!-- Masonry cdn bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+      var mixer = mixitup('.portfolios');
+    </script>
 </body>
 
 </html>
