@@ -91,4 +91,9 @@
   .clientsUrl:hover{
     color: #0d6efd !important;
   }
-  /* testimonials */
+  /* filter */
+  #filter ul li a:hover {
+    cursor: pointer;
+    color: #0d6efd !important;
+
+  }
