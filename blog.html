@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-2 fixed-top">
     <div class="container-xl">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="https://preview.webpixels.io/web/img/logos/clever-light.svg" class="h-8" alt="...">
       </a>
       <!-- Navbar toggle -->
@@ -30,11 +30,20 @@
         <!-- Nav -->
         <ul class="navbar-nav mx-lg-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">About</a></li>
+              <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+              <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
+            </ul>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
@@ -50,7 +59,7 @@
             <a class="nav-link" href="portfolio.html">Portfolios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="blog.html">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -63,50 +72,53 @@
       </div>
     </div>
   </nav>
-  <!-- Header & Feature -->
-  <header id="header" class="pt-5">
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-      <div class="row align-items-center g-lg-5 py-5">
-        <div class="col-lg-7 text-center text-lg-start">
-          <h2 class="fw-bold mb-3 h1">
-            Your Technology Partner For Innovative And Effective Digital Solutions
-          </h2>
-          <p class="fs-4">
-            We're experienced IT professionals & committed to provide the best solutions for our clients to meet their business goals.
-          </p>
-        </div>
-        <div class="col-md-10 mx-auto col-lg-5">
-          <form class="p-3 p-md-4 border rounded-0 bg-light">
+  
 
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="name" placeholder="Full Name">
-              <label for="floatingInput">Name</label>
-              <div data-lastpass-icon-root="true"
-                style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+    <!-- Header & Feature -->
+    <header id="header" class="pt-5 mt-4 bg-light">
+      <div class="container col-xl-10 col-xxl-10 p-5">
+        <div class="row align-items-center g-lg-5 ">
+          <div class="col-lg-8 text-center text-lg-start">
+            <h1 class="display-3 fw-bold text-uppercase">
+              Knowledge Based
+            </h1>
+            <p class="fs-4">
+              From web design, development, and mobile apps, to marketing, SEO, IT, security, maintenance, and software.
+  
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-10 mx-auto">
+            <form class="p-3 p-md-4 border rounded-0 bg-light">
+  
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Full Name">
+                <label for="floatingInput">Name</label>
+                <div data-lastpass-icon-root="true"
+                  style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                </div>
               </div>
-            </div>
-
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="email" placeholder="name@example.com">
-              <label for="email">Email address</label>
-              <div data-lastpass-icon-root="true"
-                style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+  
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+                <div data-lastpass-icon-root="true"
+                  style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                </div>
               </div>
-            </div>
-
-            <div class="form-floating mb-3">
-              <textarea name="msg" id="msg" cols="30" rows="5" class="form-control" placeholder="msg"></textarea>
-              <label for="msg">Message</label>
-              <div data-lastpass-icon-root="true"
-                style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+  
+              <div class="form-floating mb-3">
+                <textarea name="msg" id="msg" cols="30" rows="5" class="form-control" placeholder="msg"></textarea>
+                <label for="msg">Message</label>
+                <div data-lastpass-icon-root="true"
+                  style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                </div>
               </div>
-            </div>
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Send Message</button>
-          </form>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Send Message</button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
   <!-- Content -->
 <main>
@@ -307,6 +319,45 @@
 
 
 </main>
+
+
+<!-- Newsletter Subscribe -->
+<section id="services" class="mt-3 bg-light">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col text-center py-3">
+        <h3 class="fw-bold">Stay in Touch</h3>
+        <p class="fs-5">Subscribe to get all the new updates</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+
+        <form class="row row-cols-lg-auto g-3 align-items-center">
+          <div class="col-12">
+            <label class="visually-hidden" for="name">Name</label>
+            <div class="input-group">
+              <input type="text" class="form-control rounded-0" id="name" placeholder="Name">
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label class="visually-hidden" for="email">Name</label>
+            <div class="input-group">
+              <input type="text" class="form-control rounded-0" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-outline-secondary rounded-0">SUBSCRIBE</button>
+          </div>
+        </form>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Footer -->
 <div class="container">
   <footer class="row row-cols-1 row-cols-sm-1 row-cols-md-4 pt-5 pb-3 border-top">

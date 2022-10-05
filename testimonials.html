@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-2 fixed-top">
     <div class="container-xl">
       <!-- Logo -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="https://preview.webpixels.io/web/img/logos/clever-light.svg" class="h-8" alt="...">
       </a>
       <!-- Navbar toggle -->
@@ -30,11 +30,20 @@
         <!-- Nav -->
         <ul class="navbar-nav mx-lg-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">About</a></li>
+              <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+              <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
+            </ul>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
@@ -47,7 +56,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="portfolio.html">Portfolios</a>
+            <a class="nav-link" href="portfolio.html">Portfolios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="blog.html">Blog</a>
@@ -63,8 +72,10 @@
       </div>
     </div>
   </nav>
+  
+  
   <!-- Header & Feature -->
-  <header id="header" class="pt-5">
+  <!-- <header id="header" class="pt-5">
     <div class="container col-xl-10 col-xxl-8 px-4 py-5">
       <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-7 text-center text-lg-start">
@@ -106,7 +117,56 @@
         </div>
       </div>
     </div>
-  </header>
+  </header> -->
+
+    <!-- Header & Feature -->
+    <header id="header" class="pt-5 mt-4 bg-light">
+      <div class="container col-xl-10 col-xxl-10 p-5">
+        <div class="row align-items-center g-lg-5 ">
+          <div class="col-lg-8 text-center text-lg-start">
+            <h1 class="display-3 fw-bold text-uppercase">
+              What Client's Says 
+            </h1>
+            <p class="fs-4">
+              From web design, development, and mobile apps, to marketing, SEO, IT, security, maintenance, and software.
+  
+            </p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-4">
+            <form class="p-3 p-md-4 border rounded-0 bg-light">
+  
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Full Name">
+                <label for="floatingInput">Name</label>
+                <div data-lastpass-icon-root="true"
+                  style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                </div>
+              </div>
+  
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+                <div data-lastpass-icon-root="true"
+                  style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                </div>
+              </div>
+  
+              <div class="form-floating mb-3">
+                <textarea name="msg" id="msg" cols="30" rows="5" class="form-control" placeholder="msg"></textarea>
+                <label for="msg">Message</label>
+                <div data-lastpass-icon-root="true"
+                  style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+                </div>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
 
   <!-- Content -->
 <main>
